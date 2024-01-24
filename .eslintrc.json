@@ -1,0 +1,66 @@
+{
+  "extends": [
+    "semistandard",
+    "plugin:unicorn/recommended",
+    "plugin:sonarjs/recommended",
+    "plugin:svelte/recommended"
+  ],
+  "rules": {
+    "array-callback-return": [ "error", {"allowImplicit": true}],
+    "no-magic-numbers": [ "error", { "ignore": [0, 1, 2, -1, -2] } ],
+    "no-var": "error",
+    "no-multiple-empty-lines": ["error", { "max": 2, "maxBOF": 2, "maxEOF": 0 }],
+    "no-lonely-if": "error",
+    "comma-dangle": ["error", "always-multiline"],
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "max-len": ["off", { "code": 120 }],
+    "max-lines": ["error", 500],
+    "more/no-window": ["error", { "exclude": ["addEventListener", "FileReader", "history", "localStorage", "location", "navigator"] }],
+    "more/no-then": "error",
+    "sonarjs/cognitive-complexity": ["error", 15],
+    "sonarjs/no-duplicate-string": "off",
+    "unicorn/consistent-function-scoping": ["error", {"checkArrowFunctions": false}],
+    "unicorn/filename-case": ["error", {"case": "camelCase"}],
+    "unicorn/no-array-callback-reference": "off",
+    "unicorn/no-array-for-each": "off",
+    "unicorn/no-negated-condition": "off",
+    "unicorn/no-object-as-default-parameter": "off",
+    "unicorn/no-unused-properties": "error",
+    "unicorn/prefer-add-event-listener": "off",
+    "unicorn/prefer-export-from": "off",
+    "unicorn/prefer-number-properties": "off",
+    "unicorn/prefer-top-level-await": "off",
+    "unicorn/prevent-abbreviations": "off"
+  },
+  "plugins": [
+    "more",
+    "sonarjs",
+    "unicorn"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.svelte"
+      ],
+      "rules": {
+        "import/first": "off",
+        "import/no-duplicates": "off",
+        "import/no-mutable-exports": "off",
+        "no-undef-init": "off",
+        "no-self-assign": "off",
+        "unicorn/no-useless-undefined": "off",
+        "unicorn/filename-case": ["error", {"case": "pascalCase"}],
+        "sonarjs/no-extra-arguments": "off",
+        "svelte/valid-compile": "off"
+      }
+    },
+    {
+      "files": [
+        "*.config.js"
+      ],
+      "rules": {
+        "unicorn/prefer-module": "off"
+      }
+    }
+  ]
+}

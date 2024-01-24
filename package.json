@@ -6,14 +6,23 @@
     "dev": "rsbuild dev --open",
     "build": "rsbuild build",
     "preview": "rsbuild preview",
-    "inspect": "rsbuild inspect"
+    "inspect": "rsbuild inspect",
+    "lint": "esprint check",
+    "deps:update": "npx npm-check-updates --interactive --format group"
   },
   "dependencies": {
-    "svelte": "^4.2.2"
+    "svelte": "^4.2.9"
   },
   "devDependencies": {
     "@rsbuild/core": "^0.3.7",
     "@rsbuild/plugin-svelte": "^0.3.7",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "eslint": "^8.56.0",
+    "eslint-config-semistandard": "^17.0.0",
+    "eslint-plugin-more": "^1.0.5",
+    "eslint-plugin-sonarjs": "^0.23.0",
+    "eslint-plugin-svelte": "^2.35.1",
+    "eslint-plugin-unicorn": "^50.0.1",
+    "esprint": "^3.6.0"
   }
 }
