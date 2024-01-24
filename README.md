@@ -1,7 +1,8 @@
-# Svelte starter project
+# Svelte starter / boilerplate project
 
 ## Technologies used
 - svelte
+- bun
 - rsbuild (using rspack)
 - tailwind
 - eslint

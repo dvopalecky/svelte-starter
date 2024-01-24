@@ -1,6 +1,10 @@
+<script>
+  const framework = 'Svelte';
+</script>
+
 <main>
   <div class="content">
-    <h1>Rsbuild with Svelte</h1>
+    <h1>Rsbuild with {framework}</h1>
     <p class="text-red-500">Start building amazing things with Rsbuild.</p>
   </div>
 </main>
