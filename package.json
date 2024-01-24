@@ -8,6 +8,7 @@
     "preview": "rsbuild preview",
     "inspect": "rsbuild inspect",
     "lint": "esprint check",
+    "format-fix": "prettier --write . && prettier --write src/**/*.svelte",
     "deps:update": "npx npm-check-updates --interactive --format group"
   },
   "dependencies": {
@@ -23,6 +24,9 @@
     "eslint-plugin-sonarjs": "^0.23.0",
     "eslint-plugin-svelte": "^2.35.1",
     "eslint-plugin-unicorn": "^50.0.1",
-    "esprint": "^3.6.0"
+    "esprint": "^3.6.0",
+    "prettier": "^3.0.1",
+    "prettier-plugin-svelte": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.2"
   }
 }

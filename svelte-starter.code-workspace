@@ -1,0 +1,39 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "[javascript][typescript][svelte][html][css][json][yaml]": {
+      "editor.codeActionsOnSave": [
+        "source.formatDocument",
+        "source.fixAll.eslint"
+      ],
+    },
+    "breadcrumbs.enabled": true,
+    "codeium.enableSearch": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.formatOnSave": false,
+    "editor.minimap.enabled": true,
+    "editor.rulers": [
+      79,
+      99,
+      119
+    ],
+    "editor.tabSize": 2,
+    "eslint.validate": [
+      "javascript",
+      "svelte"
+    ],
+    "files.associations": {
+      "*.svelte": "svelte"
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "javascript.format.enable": false,
+    "javascript.suggest.autoImports": false,
+    "javascript.validate.enable": true
+  }
+}
