@@ -1,0 +1,19 @@
+{
+  "name": "svelte2",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview",
+    "inspect": "rsbuild inspect"
+  },
+  "dependencies": {
+    "svelte": "^4.2.2"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.3.7",
+    "@rsbuild/plugin-svelte": "^0.3.7",
+    "tailwindcss": "^3.4.1"
+  }
+}
