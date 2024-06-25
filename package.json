@@ -23,7 +23,7 @@
     "eslint-plugin-more": "^1.0.5",
     "eslint-plugin-sonarjs": "^0.23.0",
     "eslint-plugin-svelte": "^2.41.0",
-    "eslint-plugin-unicorn": "^50.0.1",
+    "eslint-plugin-unicorn": "^54.0.0",
     "esprint": "^3.6.0",
     "prettier": "^3.3.2",
     "prettier-plugin-svelte": "^3.2.5",
