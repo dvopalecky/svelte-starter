@@ -10,4 +10,6 @@
 
 ## List of commands
 - `bun install`
-- `bun run` - see commands list
+- dev: `bun run dev`
+- build: `bun run build`
+- `bun run` - see other commands
