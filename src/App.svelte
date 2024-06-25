@@ -1,5 +1,5 @@
 <script>
-  const framework = 'Svelte';
+const framework = 'Svelte';
 </script>
 
 <main>
