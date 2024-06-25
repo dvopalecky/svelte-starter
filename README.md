@@ -13,3 +13,7 @@
 - dev: `bun run dev`
 - build: `bun run build`
 - `bun run` - see other commands
+
+
+## Other
+- Update browser list `bun update caniuse-lite --latest`

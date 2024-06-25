@@ -15,8 +15,9 @@
     "svelte": "^4.2.18"
   },
   "devDependencies": {
-    "@rsbuild/core": "^0.3.7",
-    "@rsbuild/plugin-svelte": "^0.3.7",
+    "@rsbuild/core": "^0.7.9",
+    "@rsbuild/plugin-svelte": "^0.7.9",
+    "caniuse-lite": "^1.0.30001636",
     "eslint": "^8.56.0",
     "eslint-config-semistandard": "^17.0.0",
     "eslint-plugin-more": "^1.0.5",
@@ -26,7 +27,7 @@
     "esprint": "^3.6.0",
     "prettier": "^3.3.2",
     "prettier-plugin-svelte": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.11",
+    "prettier-plugin-tailwindcss": "^0.6.5",
     "tailwindcss": "^3.4.4"
   }
 }
