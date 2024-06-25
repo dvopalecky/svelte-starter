@@ -1,5 +1,5 @@
 {
-  "name": "svelte2",
+  "name": "svelte-starter",
   "private": true,
   "version": "1.0.0",
   "scripts": {
@@ -12,21 +12,21 @@
     "deps:update": "npx npm-check-updates --interactive --format group"
   },
   "dependencies": {
-    "svelte": "^4.2.9"
+    "svelte": "^4.2.18"
   },
   "devDependencies": {
     "@rsbuild/core": "^0.3.7",
     "@rsbuild/plugin-svelte": "^0.3.7",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8.56.0",
     "eslint-config-semistandard": "^17.0.0",
     "eslint-plugin-more": "^1.0.5",
     "eslint-plugin-sonarjs": "^0.23.0",
-    "eslint-plugin-svelte": "^2.35.1",
+    "eslint-plugin-svelte": "^2.41.0",
     "eslint-plugin-unicorn": "^50.0.1",
     "esprint": "^3.6.0",
-    "prettier": "^3.2.4",
-    "prettier-plugin-svelte": "^3.1.2",
-    "prettier-plugin-tailwindcss": "^0.5.11"
+    "prettier": "^3.3.2",
+    "prettier-plugin-svelte": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.4"
   }
 }
